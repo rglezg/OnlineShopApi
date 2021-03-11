@@ -69,11 +69,11 @@ namespace OnlineShop.Api.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<Product>> Patch(int id, [FromBody] ProductModel model)
         {
-            var product = await _db.Products.FindAsync(id);
-            model.Patch(product);
+            var product = await _db.Products.FindAsync(id);            
             if (product == null) return NotFound();
             if (!await _authorizationService.AuthorizeEditAsync(User, product)) return Forbid();
             
+            model.Patch(product);
             await _db.SaveChangesAsync();
             return Ok(product);
         }
