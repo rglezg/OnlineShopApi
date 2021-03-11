@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Api", "src\OnlineShop.Api\OnlineShop.Api.csproj", "{940905B4-B5F2-4921-8E17-D31D1DD0DE25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Core", "src\OnlineShop.Core\OnlineShop.Core.csproj", "{CF8BEBF2-7884-4453-B7BD-BA8216B5397D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Data", "src\OnlineShop.Data\OnlineShop.Data.csproj", "{15574102-8E60-4595-85C0-B9D64E68DC44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75EF65AA-CB6E-4AC6-9535-941B84E65E11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{940905B4-B5F2-4921-8E17-D31D1DD0DE25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940905B4-B5F2-4921-8E17-D31D1DD0DE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940905B4-B5F2-4921-8E17-D31D1DD0DE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940905B4-B5F2-4921-8E17-D31D1DD0DE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8BEBF2-7884-4453-B7BD-BA8216B5397D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8BEBF2-7884-4453-B7BD-BA8216B5397D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8BEBF2-7884-4453-B7BD-BA8216B5397D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8BEBF2-7884-4453-B7BD-BA8216B5397D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15574102-8E60-4595-85C0-B9D64E68DC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15574102-8E60-4595-85C0-B9D64E68DC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15574102-8E60-4595-85C0-B9D64E68DC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15574102-8E60-4595-85C0-B9D64E68DC44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15574102-8E60-4595-85C0-B9D64E68DC44} = {75EF65AA-CB6E-4AC6-9535-941B84E65E11}
+		{CF8BEBF2-7884-4453-B7BD-BA8216B5397D} = {75EF65AA-CB6E-4AC6-9535-941B84E65E11}
+		{940905B4-B5F2-4921-8E17-D31D1DD0DE25} = {75EF65AA-CB6E-4AC6-9535-941B84E65E11}
+	EndGlobalSection
+EndGlobal
