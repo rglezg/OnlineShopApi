@@ -2,6 +2,12 @@
 
 ASP.NET Core RESTful API sample
 
+## Structure
+
+- **src/OnlineShop.Data** -> DbContext, migrations, and seed data
+- **src/OnlineShop.Core** -> Database entities, DTOs and other classes that could potentially be shared with a .NET consumer
+- **src/OnlineShop.Api** -> Controllers, authorization logic, setup and entry point
+
 ## Requirements
 - .NET 5 SDK
 - MySQL (v5 onwards)
